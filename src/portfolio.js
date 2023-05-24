@@ -531,38 +531,39 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Remote Software Engineer",
+          company: "Inrepm ",
           company_url: "https://legatohealthtech.com/",
           logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          duration: "oct 2022 - current",
+          location: "Toulouse, France",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "At Inrepm, I had the opportunity to work as a software engineer, contributing to the development of a platform similar to LinkedIn and Google Meet. My role involved utilizing technologies such as React, WebSocket, Django, AJAX, and PostgreSQL to build a robust and scalable system. I was responsible for front-end development, designing and implementing user-friendly interfaces using React, HTML, CSS, and JavaScript. Leveraging WebSocket technology, I enabled real-time communication and collaboration features, enhancing the platform's interactivity. Additionally, I played a key role in the backend development, utilizing Django to design and develop RESTful APIs. This facilitated seamless integration between the front-end and backend systems, ensuring smooth data flow and optimal performance. I also leveraged AJAX to improve server communication, enhancing the platform's responsiveness. During my time at Inrepm, I worked closely with the team to implement essential features like user authentication, search functionality, and notifications. I also utilized PostgreSQL to design and manage the database, ensuring data integrity and scalability. Collaborating with product managers, designers, and other stakeholders, I gained a comprehensive understanding of project requirements and delivered solutions that met client expectations. I actively participated in code reviews, maintaining code quality standards and providing valuable feedback to peers. Overall, my experience at Inrepm allowed me to contribute to the development of a cutting-edge platform, leveraging technologies like React, WebSocket, Django, AJAX, and PostgreSQL. I played a crucial role in both front-end and backend development, delivering high-quality solutions and ensuring a seamless user experience.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Freelancer Software Engineer",
+          company: "Mostaqel ",
+          company_url: "https://mostaql.com/u/elsaroukh",
+          logo_path: "Mostaql.jpg",
+          duration: "Dec 2021 - Avr 2023",
+          location: "Remotly",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+            "During my experience as a freelance software engineer on Mostaql, I have had the opportunity to work on a wide range of projects, including building backend and frontend systems, as well as mobile applications for diverse companies. Notably, I have collaborated with Right Edu, a prominent education technology company, where I played a key role in developing innovative solutions. For Right Edu, I was responsible for designing and implementing backend systems that supported their educational platform. I worked closely with the product team to understand their requirements and translate them into robust and scalable backend architectures. By leveraging my expertise in algorithmic thinking and data structures, I developed efficient algorithms to handle complex educational data, such as user profiles, course content, and progress tracking. In addition to backend development, I also contributed to the frontend systems of Right Edu's applications. I collaborated with the frontend developers to ensure seamless integration between the frontend and backend components. This involved designing and implementing RESTful APIs to facilitate smooth data flow and efficient communication between the different layers of the application. Furthermore, I had the opportunity to contribute to the development of mobile applications for Right Edu. Leveraging my knowledge of mobile app development frameworks, I built user-friendly interfaces and implemented functionalities that enhanced the overall user experience. I worked closely with the mobile development team to ensure consistency and synchronization between the backend systems and the mobile applications. Throughout my freelancing experience, I maintained effective communication with clients, ensuring a clear understanding of their project requirements and providing regular updates on progress. I consistently delivered high-quality software solutions within agreed-upon timelines, earning positive feedback and building long-lasting relationships with clients. My freelancing experience on platforms like mostaqel has honed my ability to adapt to various project requirements and work efficiently in remote environments. It has also strengthened my problem-solving skills, allowing me to quickly analyze and address challenges that arise during software development. Overall, my experience in freelancing on platforms like mostaqel has provided me with a diverse and enriching experience in software engineering, particularly in building backend and frontend systems, as well as mobile applications for esteemed companies like Right Edu.",
+          color: "#0879bf",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Remote Software Engineer",
+          company: "6Sigma ",
+          company_url: "https://legatohealthtech.com/",
+          logo_path: "legato_logo.png",
+          duration: "Dec 2020 - Avr 2021",
+          location: "amestredam, holland",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "my primary role is to tackle real-world problems using algorithmic thinking and data structures. I specialize in building backend solutions that are efficient, scalable, and reliable. I collaborate remotely with cross-functional teams, including product managers and designers, to understand project requirements and design robust architectures. I implement algorithms and optimize existing ones to develop high-performance solutions. Additionally, I design and implement RESTful APIs, conduct thorough testing and debugging, and actively participate in code reviews to maintain code quality. I stay updated with emerging technologies and industry best practices to continually enhance software development processes and deliver innovative backend solutions.",
+          color: "#0879bf",
         },
+       
       ],
     },
     {
@@ -570,99 +571,43 @@ const experience = {
       experiences: [
         {
           title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          company: "The Solar Equipment Development Unit.",
+          company_url: "http://udes.cder.dz/",
+          logo_path: "udes.png",
+          duration: "avril 2021 - sep 2021",
+          location: "bousmail, Algeria",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "During my tenure at The Solar Equipment Development Unit, I specialized in solving power and fluids-related problems using Python and MATLAB. My role encompassed developing code to analyze and process environmental data, including variables such as air speed, temperature, and nanoparticle concentrations. I employed my skills to clean and preprocess the collected data, ensuring its accuracy and reliability for further analysis. Furthermore, I applied machine learning techniques to train models using the collected data, enabling the creation of accurate and robust simulations and representations. By leveraging my expertise in Python and MATLAB, I implemented algorithms and statistical models to optimize the training process and produce highly predictive models. Working in close collaboration with a multidisciplinary team, I effectively communicated and collaborated with domain experts to understand the specific requirements and nuances of the power and fluids domain. I actively contributed to the development of cutting-edge methodologies and techniques, continuously improving the accuracy and efficiency of the modeling process. My experience in The Solar Equipment Development Unit allowed me to gain a comprehensive understanding of power and fluids-related challenges and the ability to develop innovative solutions using programming languages like Python and MATLAB. I developed strong data analysis and modeling skills, combining domain knowledge with technical expertise to produce reliable and insightful results.",
           color: "#000000",
         },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
+       
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Mathmeatics teacher",
+          company: "ELkotof",
+          company_url: "https://github.com/developython14",
+          logo_path: "school.jpg",
+          duration: "sep 2018 - juin 2022",
+          location: "Ain taya , Algeria",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+            "• Planning and presenting lessons to facilitate students' understanding and application of mathematical concepts.• Preparing and distributing learning material such as notes, assignments, and quizzes.• Sourcing the resources and supplies needed for lessons.• Ensuring that the classroom remains safe and conducive to learning. • Grading assignments and quizzes in a timely manner. • Invigilating quizzes and final examinations. • Documenting and reporting on students' progress. • Attending meetings with parents and staff ",
           color: "#181717",
         },
+        {
+          title: "Developper",
+          company: "HackAlgeria",
+          company_url: "https://www.linkedin.com/company/hackalgeria/?originalSubdomain=fr",
+          logo_path: "hackalgeria.png",
+          duration: "juin 2020 - juin 2020",
+          location: "Alger , Algeria",
+          description:'At the Hackalgera hackathon, I participated in creating innovative solutions to detect fake news and analyze forged images. Collaborating with a talented team, we utilized advanced technologies such as natural language processing and computer vision to tackle these challenges. With my programming skills and expertise in NLP and image processing, I contributed to the development of an effective system. This experience deepened my understanding of misinformation and digital integrity while honing my teamwork and problem-solving abilities.',
+          color: "#181717",
+
+        }
       ],
     },
   ],
@@ -732,9 +677,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "mus.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, flutter, React, django, flask and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",

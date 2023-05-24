@@ -141,9 +141,9 @@ fetch(baseUrl, {
   .then((response) => response.text())
   .then((txt) => {
     const data = JSON.parse(txt);
-    console.log(data);
     var cropped = { data: [] };
     cropped["data"] = data["data"]["user"]["pullRequests"]["nodes"];
+    
 
     var open = 0;
     var closed = 0;
