@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -239,9 +239,12 @@ const skills = {
       title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        '⚡ Experienced backend developer with expertise in designing and developing web applications using Django, Flask, and PostgreSQL.',
+'⚡ Proficient in utilizing cloud platforms such as Google Cloud for hosting and deploying applications.',
+'⚡ Skilled in managing VPS (Virtual Private Server) environments to ensure smooth application performance and security.',
+'⚡ Extensive knowledge of WebSocket and WebRTC technologies for real-time communication and collaboration features.',
+'⚡ Strong understanding of REST API principles and best practices for creating scalable and efficient APIs.',
+'⚡ Well-versed in integrating various third-party services and APIs to enhance application functionality and user experience.',
       ],
       softwareSkills: [
         {

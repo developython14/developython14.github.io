@@ -15,6 +15,7 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import Projectdetails from "../../components/projectlive/projectlive";
 
 class Projects extends Component {
   render() {
@@ -91,7 +92,13 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div>
-        allo mystha
+        <div style={{display:'flex' ,flexDirection:'row'}}>
+        <Projectdetails></Projectdetails>
+        <Projectdetails></Projectdetails>  
+        <Projectdetails></Projectdetails>
+        <Projectdetails></Projectdetails>
+
+        </div>
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
