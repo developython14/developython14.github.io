@@ -9,7 +9,7 @@ const Projectdetails = (props) => {
     // and use them to render dynamic content
     return (
         <div style={{height:'200px' ,width:'200px'}}>
-        <Carousel autoPlay={true}>
+        <Carousel autoPlay={true} showThumbs={false}>
                 <div>
                     <img src="https://images.pexels.com/photos/3934616/pexels-photo-3934616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
                 </div>
