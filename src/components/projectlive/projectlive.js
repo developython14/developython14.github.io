@@ -40,15 +40,24 @@ const Projectdetails = (props) => {
       Mobile App
     </CardSubtitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of the card‘s content.
+      Some quick example text to build on the card title and make up the bulk of the card‘s content.<br></br>
+    <Button outline>
+        Html
+    </Button> 
+    <Button outline>
+        CSS
+    </Button>
+    <Button outline>
+        Javascript
+    </Button>
     </CardText>
     <Button color="danger" onClick={toggle}>
       Live Video
     </Button>
-    <Modal isOpen={modal} toggle={toggle} fullscreen>
+    <Modal isOpen={modal} toggle={toggle} fullscreen className='modal-xl'>
         <ModalHeader toggle={toggle}>Right Edu</ModalHeader>
         <ModalBody width = '100%'>
-           <iframe width="100%" height="389" src="https://www.youtube.com/embed/p1GmFCGuVjw" title="How To Make A Website With Login And Register | HTML CSS &amp; Javascript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <iframe width="100%" height="600" src="https://www.youtube.com/embed/p1GmFCGuVjw" title="How To Make A Website With Login And Register | HTML CSS &amp; Javascript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </ModalBody>
       </Modal>  
   </CardBody>
