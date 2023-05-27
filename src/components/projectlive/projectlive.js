@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card,CardBody,CardTitle,CardSubtitle,Button,CardText ,Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
-import React, { useState } from 'react';
+import React, {  useState, useRef } from 'react';
 
 const Projectdetails = (props) => {
     const [modal, setModal] = useState(false);
@@ -46,29 +46,40 @@ const Projectdetails = (props) => {
       Live Video
     </Button>
     <Modal isOpen={modal} toggle={toggle} >
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalHeader toggle={toggle}>Right Edu</ModalHeader>
         <ModalBody>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+           <VideoPlayer/>
         </ModalBody>
-        <ModalFooter>
-          <Button color="primary" onClick={toggle}>
-            Do Something
-          </Button>{' '}
-          <Button color="secondary" onClick={toggle}>
-            Cancel
-          </Button>
-        </ModalFooter>
       </Modal>  
   </CardBody>
 </Card>
         
     
+    );
+  };
+  
+  const VideoPlayer = () => {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const videoRef = useRef(null);
+  
+    const handlePlayPause = () => {
+      const video = videoRef.current;
+      if (isPlaying) {
+        video.pause();
+      } else {
+        video.play();
+      }
+      setIsPlaying(!isPlaying);
+    };
+  
+    return (
+      <div className="video-player">
+        <video ref={videoRef} src="https://youtu.be/0OLIink2zvs" controls />
+  
+        <button onClick={handlePlayPause}>
+          {isPlaying ? 'Pause' : 'Play'}
+        </button>
+      </div>
     );
   };
   
