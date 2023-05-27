@@ -45,10 +45,10 @@ const Projectdetails = (props) => {
     <Button color="danger" onClick={toggle}>
       Live Video
     </Button>
-    <Modal isOpen={modal} toggle={toggle} >
+    <Modal isOpen={modal} toggle={toggle} fullscreen>
         <ModalHeader toggle={toggle}>Right Edu</ModalHeader>
-        <ModalBody>
-           <VideoPlayer/>
+        <ModalBody width = '100%'>
+           <iframe width="100%" height="389" src="https://www.youtube.com/embed/p1GmFCGuVjw" title="How To Make A Website With Login And Register | HTML CSS &amp; Javascript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </ModalBody>
       </Modal>  
   </CardBody>
@@ -58,30 +58,7 @@ const Projectdetails = (props) => {
     );
   };
   
-  const VideoPlayer = () => {
-    const [isPlaying, setIsPlaying] = useState(false);
-    const videoRef = useRef(null);
-  
-    const handlePlayPause = () => {
-      const video = videoRef.current;
-      if (isPlaying) {
-        video.pause();
-      } else {
-        video.play();
-      }
-      setIsPlaying(!isPlaying);
-    };
-  
-    return (
-      <div className="video-player">
-        <video ref={videoRef} src="https://youtu.be/0OLIink2zvs" controls />
-  
-        <button onClick={handlePlayPause}>
-          {isPlaying ? 'Pause' : 'Play'}
-        </button>
-      </div>
-    );
-  };
+
   
   export default Projectdetails;
   
