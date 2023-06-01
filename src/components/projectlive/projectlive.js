@@ -26,6 +26,10 @@ const handleButtonClick = () => {
     setShowContent(description);
   }
 };
+const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+const ref_images = ar.map((e)=> <div>
+<img src={require(`../../assests/images/projects/project0/${e}.png`)} />
+</div>) 
     return (
         <Card
   style={{
@@ -34,15 +38,7 @@ const handleButtonClick = () => {
   className="m-3"
 >
 <Carousel autoPlay={true} showThumbs={false}>
-                <div>
-                    <img src="src/assets/free.jpg" />
-                </div>
-                <div>
-                    <img src="https://images.pexels.com/photos/3934616/pexels-photo-3934616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-                </div>
-                <div>
-                    <img src="https://images.pexels.com/photos/3934616/pexels-photo-3934616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-                </div>
+               {ref_images}
         </Carousel>
   <CardBody>
     <CardTitle tag="h5">
