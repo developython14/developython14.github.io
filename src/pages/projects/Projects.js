@@ -92,8 +92,11 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div>
-        <div style={{display:'flex' ,flexDirection:'row',}}>
+        <div style={{display:'flex' ,flexDirection:'row', flexWrap:'wrap' ,justifyContent:'center'}}>
         <Projectdetails></Projectdetails>
+        <Projectdetails></Projectdetails>
+        <Projectdetails></Projectdetails>
+
      
 
         </div>

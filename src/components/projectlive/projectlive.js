@@ -11,6 +11,21 @@ const Projectdetails = (props) => {
   const toggle = () => setModal(!modal);
     // You can access the props passed to the component
     // and use them to render dynamic content
+    var description = "The web application I developed using Flask, MongoDB, HTML, CSS, JavaScript, and Bootstrap is a comprehensive and efficient system for controlling and managing the operations of an e-services company. It offers a user-friendly interface and leverages the power of Flask and MongoDB for robust backend functionality and data management. The frontend, built with HTML, CSS, JavaScript, and Bootstrap, ensures a responsive and visually appealing user experience. This application enables the company to seamlessly control and manage various systems, including service management, customer support, and data analytics. With its scalable architecture and streamlined interface, the web application optimizes the company's operations and enhances the delivery of services.";
+    const list_model = ['Html' , 'Css','Javascript' , 'Jquery' , 'Boostrap' , 'Python' , 'Flask' , 'Herouk' ,'And More..'];
+    const ref = list_model.map((e) =>  <Button outline>
+    {e}
+</Button> )
+const [showContent, setShowContent] = useState(description.slice(0,100));
+const handleButtonClick = () => {
+  console.log('called ');
+  if(showContent.length>100){
+    setShowContent(description.slice(0,100));
+  }
+  else{
+    setShowContent(description);
+  }
+};
     return (
         <Card
   style={{
@@ -20,7 +35,7 @@ const Projectdetails = (props) => {
 >
 <Carousel autoPlay={true} showThumbs={false}>
                 <div>
-                    <img src="https://images.pexels.com/photos/3934616/pexels-photo-3934616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                    <img src="assets/images/dsc_logo.png" />
                 </div>
                 <div>
                     <img src="https://images.pexels.com/photos/3934616/pexels-photo-3934616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
@@ -31,33 +46,28 @@ const Projectdetails = (props) => {
         </Carousel>
   <CardBody>
     <CardTitle tag="h5">
-      Right App
+      Right Services Adminstartions
     </CardTitle>
     <CardSubtitle
       className="mb-2 text-muted"
       tag="h6"
     >
-      Mobile App
+      Web Applications
     </CardSubtitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of the card‘s content.<br></br>
-    <Button outline>
-        Html
-    </Button> 
-    <Button outline>
-        CSS
-    </Button>
-    <Button outline>
-        Javascript
-    </Button>
+      {showContent}  <Button onClick={handleButtonClick} color="link">More ...</Button> <br></br>
+    <div>
+      {ref}
+    </div>
+
     </CardText>
     <Button color="danger" onClick={toggle}>
       Live Video
     </Button>
     <Modal isOpen={modal} toggle={toggle} fullscreen className='modal-xl'>
-        <ModalHeader toggle={toggle}>Right Edu</ModalHeader>
+        <ModalHeader toggle={toggle}>Web Applications</ModalHeader>
         <ModalBody width = '100%'>
-           <iframe width="100%" height="600" src="https://www.youtube.com/embed/p1GmFCGuVjw" title="How To Make A Website With Login And Register | HTML CSS &amp; Javascript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/MfpuaOaq5_c" title="&quot;Building Powerful Web Apps with Python, Flask, MongoDB, JavaScript, HTML, CSS, Bootstrap, and Chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </ModalBody>
       </Modal>  
   </CardBody>
