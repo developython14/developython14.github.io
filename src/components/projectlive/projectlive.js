@@ -33,7 +33,7 @@ const ref_images = ar.map((e)=> <div>
     return (
         <Card
   style={{
-    width: '18rem'
+    width: '25rem'
   }}
   className="m-3"
 >
