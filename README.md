@@ -35,8 +35,8 @@ Here are a few notable projects I have worked on:
 ## Contact Information
 Feel free to reach out to me if you have any questions or would like to discuss potential collaborations or opportunities. You can contact me via the following channels:
 
-- Email: [your-email@example.com](mailto:khasarou@gmail.com)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/mustapha-belkassem-9b04b116b)
-- GitHub: [YourUsername](https://github.com/developython14)
+- Email: [khasarou@gmail.com](mailto:khasarou@gmail.com)
+- LinkedIn: [Mustapha belkassam](https://www.linkedin.com/in/mustapha-belkassem-9b04b116b)
+- GitHub: [developython14](https://github.com/developython14)
 
 Thank you for considering my profile. I look forward to working on exciting projects and contributing to your team!

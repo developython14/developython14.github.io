@@ -35,7 +35,7 @@ const handleButtonClick = () => {
 >
 <Carousel autoPlay={true} showThumbs={false}>
                 <div>
-                    <img src="images/old-landing-page.PNG" />
+                    <img src="src/assets/free.jpg" />
                 </div>
                 <div>
                     <img src="https://images.pexels.com/photos/3934616/pexels-photo-3934616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
