@@ -101,7 +101,7 @@ const ref_images = ar.map((e)=> <div>
 };
     return (
        
-      <div className='d-flex flex-row justify-content-evenly'>
+      <div className='d-flex flex-row justify-content-between'>
       <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
     {ref_images}
   
