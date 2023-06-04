@@ -33,11 +33,11 @@ const ref_images = ar.map((e)=> <div>
     return (
         <Card
   style={{
-    width: '25rem'
+    width: '22rem'
   }}
   className="m-3"
 >
-<Carousel autoPlay={true} showThumbs={false}>
+<Carousel autoPlay={true} showThumbs={false} showIndicators={false}>
                {ref_images}
         </Carousel>
   <CardBody>
@@ -72,6 +72,63 @@ const ref_images = ar.map((e)=> <div>
     
     );
   };
+  
+
+  const Mobileappdetaisls = (props) => {
+
+  const toggle = () => setModal(!modal);
+    // You can access the props passed to the component
+    // and use them to render dynamic content
+    var description = "The web application I developed using Flask, MongoDB, HTML, CSS, JavaScript, and Bootstrap is a comprehensive and efficient system for controlling and managing the operations of an e-services company. It offers a user-friendly interface and leverages the power of Flask and MongoDB for robust backend functionality and data management. The frontend, built with HTML, CSS, JavaScript, and Bootstrap, ensures a responsive and visually appealing user experience. This application enables the company to seamlessly control and manage various systems, including service management, customer support, and data analytics. With its scalable architecture and streamlined interface, the web application optimizes the company's operations and enhances the delivery of services.";
+    const list_model = ['Html' , 'Css','Javascript' , 'Jquery' , 'Boostrap' , 'Python' , 'Flask' , 'Herouk' ,'And More..'];
+    const ref = list_model.map((e) =>  <Button outline>
+    {e}
+</Button> )
+const [showContent, setShowContent] = useState(description.slice(0,100));
+const handleButtonClick = () => {
+  console.log('called ');
+  if(showContent.length>100){
+    setShowContent(description.slice(0,100));
+  }
+  else{
+    setShowContent(description);
+  }
+};
+const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+
+    return (
+       
+        
+      <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
+      <div>
+          <img src="assets/1.jpeg" />
+          <p className="legend">Legend 1</p>
+      </div>
+      <div>
+          <img src="assets/2.jpeg" />
+          <p className="legend">Legend 2</p>
+      </div>
+      <div>
+          <img src="assets/3.jpeg" />
+          <p className="legend">Legend 3</p>
+      </div>
+      <div>
+          <img src="assets/4.jpeg" />
+          <p className="legend">Legend 4</p>
+      </div>
+      <div>
+          <img src="assets/5.jpeg" />
+          <p className="legend">Legend 5</p>
+      </div>
+      <div>
+          <img src="assets/6.jpeg" />
+          <p className="legend">Legend 6</p>
+      </div>
+  </Carousel>
+    );
+  };
+  
+
   
 
   
