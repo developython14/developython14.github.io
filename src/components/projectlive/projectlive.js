@@ -74,6 +74,67 @@ const ref_images = ar.map((e)=> <div>
   };
   
 
+  const Detaislsmobile = (props) => {
+    const [modal, setModal] = useState(false);
+    const toggle = () => setModal(!modal);
+    var description = "The web application I developed using Flask, MongoDB, HTML, CSS, JavaScript, and Bootstrap is a comprehensive and efficient system for controlling and managing the operations of an e-services company. It offers a user-friendly interface and leverages the power of Flask and MongoDB for robust backend functionality and data management. The frontend, built with HTML, CSS, JavaScript, and Bootstrap, ensures a responsive and visually appealing user experience. This application enables the company to seamlessly control and manage various systems, including service management, customer support, and data analytics. With its scalable architecture and streamlined interface, the web application optimizes the company's operations and enhances the delivery of services.";
+    const list_model = ['Html' , 'Css','Javascript' , 'Jquery' , 'Boostrap' , 'Python' , 'Flask' , 'Herouk' ,'And More..'];
+    const ref = list_model.map((e) =>  <Button outline>
+    {e}
+</Button> )
+const [showContent, setShowContent] = useState(description.slice(0,100));
+const handleButtonClick = () => {
+  console.log('called ');
+  if(showContent.length>100){
+    setShowContent(description.slice(0,100));
+  }
+  else{
+    setShowContent(description);
+  }
+};
+  const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+const ref_images = ar.map((e)=> <div>
+<img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`)} />
+</div>);
+ const carouselItemStyle = {
+  boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.2)',
+};
+    return(
+    <div>
+      <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
+    {ref_images}  
+  </Carousel>
+  <CardBody>
+    <CardTitle tag="h5">
+      Right Services Adminstartions
+    </CardTitle>
+    <CardSubtitle
+      className="mb-2 text-muted"
+      tag="h6"
+    >
+      Web Applications
+    </CardSubtitle>
+    <CardText>
+      {showContent}  <Button onClick={handleButtonClick} color="link">More ...</Button> <br></br>
+    <div>
+      {ref}
+    </div>
+
+    </CardText>
+    <Button color="danger" onClick={toggle}>
+      Live Video
+    </Button>
+    <Modal isOpen={modal} toggle={toggle} fullscreen className='modal-xl'>
+        <ModalHeader toggle={toggle}>Web Applications</ModalHeader>
+        <ModalBody width = '100%'>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/MfpuaOaq5_c" title="&quot;Building Powerful Web Apps with Python, Flask, MongoDB, JavaScript, HTML, CSS, Bootstrap, and Chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </ModalBody>
+      </Modal>  
+  </CardBody>
+  </div>
+    )
+  }
+
  export const Mobileappdetaisls = (props) => {
     // You can access the props passed to the component
     // and use them to render dynamic content
@@ -92,29 +153,12 @@ const handleButtonClick = () => {
     setShowContent(description);
   }
 };
-const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
-const ref_images = ar.map((e)=> <div>
-<img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`)} />
-</div>);
- const carouselItemStyle = {
-  boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.2)',
-};
+
     return (
        
-      <div className='d-flex flex-row justify-content-between'>
-      <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
-    {ref_images}
-  
-  </Carousel>
-  <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
-    {ref_images}
-  
-  </Carousel>
-  <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
-    {ref_images}
-  
-  </Carousel>
-  
+      <div className='d-flex flex-row justify-content-between flex-wrap'>
+        <Detaislsmobile/>
+        <Detaislsmobile/>
   </div>
     );
   };
