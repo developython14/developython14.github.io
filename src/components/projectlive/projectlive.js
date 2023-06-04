@@ -96,11 +96,15 @@ const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 const ref_images = ar.map((e)=> <div>
 <img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`)} />
 </div>);
-
+ const carouselItemStyle = {
+  boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.2)',
+};
     return (
        
-      <div style={{height:'20px'}}>
-      <Carousel showArrows={true} centerMode={true} width={'30%'} showThumbs={false} showIndicators={false}>
+      <div >
+        <div height={'200px'} width={'200px'}> fre</div>
+        salam alikom
+      <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'30%'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
     {ref_images}
   
   </Carousel>
