@@ -74,7 +74,7 @@ const ref_images = ar.map((e)=> <div>
   };
   
 
-  const Mobileappdetaisls = (props) => {
+ export const Mobileappdetaisls = (props) => {
 
   const toggle = () => setModal(!modal);
     // You can access the props passed to the component
