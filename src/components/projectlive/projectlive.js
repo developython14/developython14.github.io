@@ -78,7 +78,7 @@ const ref_images = ar.map((e)=> <div>
     const [modal, setModal] = useState(false);
     const toggle = () => setModal(!modal);
     var description = "One of my notable projects is [App Name], a cross-platform Flutter app that connects simple users with expert service providers. This app features a comprehensive user authentication and profile management system, a service request system, expert profile viewing, and following capabilities. It also includes secure payment integration and in-app chat functionality for communication with both experts and the administration. I have seamlessly integrated RESTful APIs using the HTTP package and developed the backend using Flask and MongoDB for efficient data management. The app is compatible with both iOS and Android platforms, thanks to the power of Flutter.";
-    const list_model = ['Html' , 'Css','Javascript' , 'Jquery' , 'Boostrap' , 'Python' , 'Flask' , 'Herouk' ,'And More..'];
+    const list_model = ['Flutter' , 'Dart','Provider' , 'Flask' , 'MongoDb' , 'Python' , 'Rest Api' , 'Herouk' ,'And More..'];
     const ref = list_model.map((e) =>  <Button outline>
     {e}
 </Button> )
