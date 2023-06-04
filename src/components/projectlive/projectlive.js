@@ -75,8 +75,6 @@ const ref_images = ar.map((e)=> <div>
   
 
  export const Mobileappdetaisls = (props) => {
-
-  const toggle = () => setModal(!modal);
     // You can access the props passed to the component
     // and use them to render dynamic content
     var description = "The web application I developed using Flask, MongoDB, HTML, CSS, JavaScript, and Bootstrap is a comprehensive and efficient system for controlling and managing the operations of an e-services company. It offers a user-friendly interface and leverages the power of Flask and MongoDB for robust backend functionality and data management. The frontend, built with HTML, CSS, JavaScript, and Bootstrap, ensures a responsive and visually appealing user experience. This application enables the company to seamlessly control and manage various systems, including service management, customer support, and data analytics. With its scalable architecture and streamlined interface, the web application optimizes the company's operations and enhances the delivery of services.";
@@ -99,7 +97,7 @@ const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
     return (
        
         
-      <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
+      <Carousel showArrows={true} >
       <div>
           <img src="assets/1.jpeg" />
           <p className="legend">Legend 1</p>
