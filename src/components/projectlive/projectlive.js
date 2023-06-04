@@ -93,36 +93,19 @@ const handleButtonClick = () => {
   }
 };
 const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+const ref_images = ar.map((e)=> <div>
+<img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`)} />
+</div>);
 
     return (
        
-        
-      <Carousel showArrows={true} >
-      <div>
-          <img src="assets/1.jpeg" />
-          <p className="legend">Legend 1</p>
-      </div>
-      <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
-      </div>
-      <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
-      </div>
-      <div>
-          <img src="assets/4.jpeg" />
-          <p className="legend">Legend 4</p>
-      </div>
-      <div>
-          <img src="assets/5.jpeg" />
-          <p className="legend">Legend 5</p>
-      </div>
-      <div>
-          <img src="assets/6.jpeg" />
-          <p className="legend">Legend 6</p>
-      </div>
+      <div style={{height:'20px'}}>
+      <Carousel showArrows={true} centerMode={true} width={'30%'} showThumbs={false} showIndicators={false}>
+    {ref_images}
+  
   </Carousel>
+  
+  </div>
     );
   };
   
