@@ -77,7 +77,7 @@ const ref_images = ar.map((e)=> <div>
   const Detaislsmobile = (props) => {
     const [modal, setModal] = useState(false);
     const toggle = () => setModal(!modal);
-    var description = "The web application I developed using Flask, MongoDB, HTML, CSS, JavaScript, and Bootstrap is a comprehensive and efficient system for controlling and managing the operations of an e-services company. It offers a user-friendly interface and leverages the power of Flask and MongoDB for robust backend functionality and data management. The frontend, built with HTML, CSS, JavaScript, and Bootstrap, ensures a responsive and visually appealing user experience. This application enables the company to seamlessly control and manage various systems, including service management, customer support, and data analytics. With its scalable architecture and streamlined interface, the web application optimizes the company's operations and enhances the delivery of services.";
+    var description = "One of my notable projects is [App Name], a cross-platform Flutter app that connects simple users with expert service providers. This app features a comprehensive user authentication and profile management system, a service request system, expert profile viewing, and following capabilities. It also includes secure payment integration and in-app chat functionality for communication with both experts and the administration. I have seamlessly integrated RESTful APIs using the HTTP package and developed the backend using Flask and MongoDB for efficient data management. The app is compatible with both iOS and Android platforms, thanks to the power of Flutter.";
     const list_model = ['Html' , 'Css','Javascript' , 'Jquery' , 'Boostrap' , 'Python' , 'Flask' , 'Herouk' ,'And More..'];
     const ref = list_model.map((e) =>  <Button outline>
     {e}
@@ -104,7 +104,7 @@ const ref_images = ar.map((e)=> <div>
       <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
     {ref_images}  
   </Carousel>
-  <CardBody>
+  <CardBody style={{width:'22rem'}}>
     <CardTitle tag="h5">
       Right Services Adminstartions
     </CardTitle>
