@@ -16,6 +16,7 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import Projectdetails, { Mobileappdetaisls } from "../../components/projectlive/projectlive";
+import { ML_Project, ML_Project_0 } from "../../components/projectlive/data_science_projects";
 
 class Projects extends Component {
   render() {
@@ -101,11 +102,8 @@ class Projects extends Component {
 
         </div>
         <Mobileappdetaisls/>
-        <iframe src="https://www.kaggle.com/embed/belkassemmoustapha/solar-power-predicton?kernelSessionId=62025782" height="800" style= {{
-    margin: '0 auto',
-    width: '100%',
-    maxWidth: '950px'
-  }} frameborder="0" scrolling="auto" title="solar power predicton"></iframe>
+        <ML_Project_0/>
+       
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
