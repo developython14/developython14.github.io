@@ -96,11 +96,16 @@ class Projects extends Component {
         <Projectdetails></Projectdetails>
         <Projectdetails></Projectdetails>
         <Projectdetails></Projectdetails>
-
+        
      
 
         </div>
         <Mobileappdetaisls/>
+        <iframe src="https://www.kaggle.com/embed/belkassemmoustapha/solar-power-predicton?kernelSessionId=62025782" height="800" style= {{
+    margin: '0 auto',
+    width: '100%',
+    maxWidth: '950px'
+  }} frameborder="0" scrolling="auto" title="solar power predicton"></iframe>
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

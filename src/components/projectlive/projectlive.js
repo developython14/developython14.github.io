@@ -92,7 +92,8 @@ const handleButtonClick = () => {
     setShowContent(description);
   }
 };
-  const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+  const ar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43];
+
 const ref_images = ar.map((e)=> <div>
 <img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`)} />
 </div>);
@@ -104,7 +105,7 @@ const ref_images = ar.map((e)=> <div>
       <Carousel showArrows={true}  style={carouselItemStyle} centerMode={true} width={'22rem'} showThumbs={false} showIndicators={false} infiniteLoop={true} interval={100}>
     {ref_images}  
   </Carousel>
-  <CardBody style={{width:'22rem'}}>
+  <CardBody style={{width:'20rem'}}>
     <CardTitle tag="h5">
       Right Services
     </CardTitle>
@@ -127,7 +128,7 @@ const ref_images = ar.map((e)=> <div>
     <Modal isOpen={modal} toggle={toggle} fullscreen className='modal-xl'>
         <ModalHeader toggle={toggle}>Web Applications</ModalHeader>
         <ModalBody width = '100%'>
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/MfpuaOaq5_c" title="&quot;Building Powerful Web Apps with Python, Flask, MongoDB, JavaScript, HTML, CSS, Bootstrap, and Chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="389" src="https://www.youtube.com/embed/NghMP69A4Q4" title="eservices app using flutter and flask ! python" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </ModalBody>
       </Modal>  
   </CardBody>
