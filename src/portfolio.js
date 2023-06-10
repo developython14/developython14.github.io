@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Belkassam Mustapha Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://developython14.github.io/#/",
   },
 };
 
