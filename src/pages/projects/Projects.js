@@ -16,7 +16,7 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import Projectdetails, { Mobileappdetaisls } from "../../components/projectlive/projectlive";
-import { ML_Project, ML_Project_0 } from "../../components/projectlive/data_science_projects";
+import { ML_Project, ML_Project_0, ML_Project_1 } from "../../components/projectlive/data_science_projects";
 
 class Projects extends Component {
   render() {
@@ -103,6 +103,8 @@ class Projects extends Component {
         </div>
         <Mobileappdetaisls/>
         <ML_Project_0/>
+        <ML_Project_1/>
+
        
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
