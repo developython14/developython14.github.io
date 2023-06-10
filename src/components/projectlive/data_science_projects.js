@@ -1,9 +1,10 @@
 import React, {  useState, useRef } from 'react';
+import { Button,} from 'reactstrap';
 
 
 
 export const ML_Project_0=(props)=>{
-    const desc = '';
+    const description = '';
     const [showContent, setShowContent] = useState(description.slice(0,100));
 const handleButtonClick = () => {
   console.log('called ');
@@ -15,7 +16,7 @@ const handleButtonClick = () => {
   }
 };
     return (
-    <div>{showContent}
+    <div> {showContent}  <Button onClick={handleButtonClick} color="link">More ...</Button> <br></br>
     <iframe src="https://www.kaggle.com/embed/belkassemmoustapha/solar-power-predicton?kernelSessionId=62025782" height="800" style= {{
         margin: '0 auto',
         width: '100%',
