@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     " Hello! I'm a passionate software engineer with a strong expertise in React and Flutter for building engaging and intuitive user interfaces. I also possess solid skills in data science, utilizing tools and techniques to extract insights from complex datasets. My proficiency extends to backend development using Flask and Django, creating robust and scalable web applications. With a problem-solving mindset and a deep understanding of algorithms, I enjoy tackling challenging technical problems and implementing efficient solutions. My diverse skill set allows me to contribute to full-stack development projects, combining my front-end expertise with backend and data-driven functionalities. I'm dedicated to delivering high-quality code and exceptional user experiences. Let's collaborate and bring innovative ideas to life! ",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1MxUUMDN1g7xBIPRzL82JqX1XtPamXygG/view?usp=drive_link",
+  portfolio_repository: "https://github.com/developython14",
   githubProfile: "https://github.com/developython14",
 };
 
@@ -688,19 +688,19 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://www.linkedin.com/in/mustapha-belkassem-9b04b116b/recent-activity/all/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+      "cite 120 logments Larabatahe",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/ZfzaLNEgrVRwk4Cu6",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone:whatsapp:telegram",
+    subtitle: "+213674901699",
   },
 };
 
