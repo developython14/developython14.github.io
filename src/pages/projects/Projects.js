@@ -17,7 +17,7 @@ import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import Projectdetails, { Mobileappdetaisls } from "../../components/projectlive/projectlive";
 import { ML_Project, ML_Project_0, ML_Project_1, ML_Project_2 } from "../../components/projectlive/data_science_projects";
-import {Projectdetails_1 , Projectdetails_2} from "../../components/projectlive/projectlive";
+import {Projectdetails_1 , Projectdetails_2 , Detaislsmobile} from "../../components/projectlive/projectlive";
 
 
 class Projects extends Component {
@@ -71,7 +71,8 @@ class Projects extends Component {
       
         <div style={{display:'flex' ,flexDirection:'row', flexWrap:'wrap' ,justifyContent:'center'}}>
           <Projectdetails_1></Projectdetails_1>
-          <Projectdetails_2></Projectdetails_2>        
+          <Projectdetails_2></Projectdetails_2>
+       
         
 
         

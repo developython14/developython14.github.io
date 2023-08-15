@@ -80,7 +80,7 @@ export  const Projectdetails_2 = (props) => {
   const toggle = () => setModal(!modal);
     // You can access the props passed to the component
     // and use them to render dynamic content
-    var description = "The web application I developed using Flask, MongoDB, HTML, CSS, JavaScript, and Bootstrap is a comprehensive and efficient system for controlling and managing the operations of an e-services company. It offers a user-friendly interface and leverages the power of Flask and MongoDB for robust backend functionality and data management. The frontend, built with HTML, CSS, JavaScript, and Bootstrap, ensures a responsive and visually appealing user experience. This application enables the company to seamlessly control and manage various systems, including service management, customer support, and data analytics. With its scalable architecture and streamlined interface, the web application optimizes the company's operations and enhances the delivery of services.";
+    var description = "Right Education is an innovative web application that brings students, professors, and professionals together in a dynamic learning ecosystem. With real-time chat, resource sharing, and expert guidance, EducationHub fosters interactive learning and meaningful collaboration. Whether you're seeking academic support, career advice, or project partnerships, EducationHub provides a versatile platform to connect, learn, and excel. Join us and embark on a journey of knowledge, growth, and endless possibilities.";
     const list_model = ['Html' , 'Css','Javascript' , 'Jquery' , 'Boostrap' , 'Python' , 'Flask' , 'Herouk' ,'chartjs','Rest Api','And More..'];
     const ref = list_model.map((e) =>  <Button outline>
     {e}
@@ -132,7 +132,7 @@ const ref_images = ar.map((e)=> <div>
     <Modal isOpen={modal} toggle={toggle} fullscreen className='modal-xl'>
         <ModalHeader toggle={toggle}>Web Applications</ModalHeader>
         <ModalBody width = '100%'>
-        <iframe width="699" height="393" src="https://www.youtube.com/embed/gyBbk1W2zHg" title="web application for univertairy student" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/gyBbk1W2zHg" title="web application for univertairy student" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </ModalBody>
       </Modal>  
   </CardBody>
@@ -149,7 +149,7 @@ const ref_images = ar.map((e)=> <div>
 
 
 
-  const Detaislsmobile = (props) => {
+export  const Detaislsmobile = (props) => {
     const [modal, setModal] = useState(false);
     const toggle = () => setModal(!modal);
     var description = "One of my notable projects is Right_Services, a cross-platform Flutter app that connects simple users with expert service providers. This app features a comprehensive user authentication and profile management system, a service request system, expert profile viewing, and following capabilities. It also includes secure payment integration and in-app chat functionality for communication with both experts and the administration. I have seamlessly integrated RESTful APIs using the HTTP package and developed the backend using Flask and MongoDB for efficient data management. The app is compatible with both iOS and Android platforms, thanks to the power of Flutter.";
