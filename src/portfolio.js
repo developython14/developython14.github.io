@@ -376,7 +376,7 @@ const degrees = {
     {
       title: "The University of Science and Technology Houari Boumediene",
       subtitle: "Bachlor in applied physics",
-      logo_path: "usthb.png",
+      logo_path: "usthb.jpg",
       alt_name: "Indiana University Bloomington",
       duration: "2016 - 2019",
       descriptions: [
@@ -534,9 +534,9 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Remote Software Engineer",
+          title: "Software Engineer",
           company: "Inrepm ",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "",
           logo_path: "legato_logo.png",
           duration: "oct 2022 - current",
           location: "Toulouse, France",
@@ -545,20 +545,20 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title: "Freelancer Software Engineer",
-          company: "Mostaqel ",
+          title: "Software Engineer",
+          company: "Right ",
           company_url: "https://mostaql.com/u/elsaroukh",
           logo_path: "Mostaql.jpg",
           duration: "Dec 2021 - Avr 2023",
-          location: "Remotly",
+          location: "Saudi Arabia",
           description:
             "During my experience as a freelance software engineer on Mostaql, I have had the opportunity to work on a wide range of projects, including building backend and frontend systems, as well as mobile applications for diverse companies. Notably, I have collaborated with Right Edu, a prominent education technology company, where I played a key role in developing innovative solutions. For Right Edu, I was responsible for designing and implementing backend systems that supported their educational platform. I worked closely with the product team to understand their requirements and translate them into robust and scalable backend architectures. By leveraging my expertise in algorithmic thinking and data structures, I developed efficient algorithms to handle complex educational data, such as user profiles, course content, and progress tracking. In addition to backend development, I also contributed to the frontend systems of Right Edu's applications. I collaborated with the frontend developers to ensure seamless integration between the frontend and backend components. This involved designing and implementing RESTful APIs to facilitate smooth data flow and efficient communication between the different layers of the application. Furthermore, I had the opportunity to contribute to the development of mobile applications for Right Edu. Leveraging my knowledge of mobile app development frameworks, I built user-friendly interfaces and implemented functionalities that enhanced the overall user experience. I worked closely with the mobile development team to ensure consistency and synchronization between the backend systems and the mobile applications. Throughout my freelancing experience, I maintained effective communication with clients, ensuring a clear understanding of their project requirements and providing regular updates on progress. I consistently delivered high-quality software solutions within agreed-upon timelines, earning positive feedback and building long-lasting relationships with clients. My freelancing experience on platforms like mostaqel has honed my ability to adapt to various project requirements and work efficiently in remote environments. It has also strengthened my problem-solving skills, allowing me to quickly analyze and address challenges that arise during software development. Overall, my experience in freelancing on platforms like mostaqel has provided me with a diverse and enriching experience in software engineering, particularly in building backend and frontend systems, as well as mobile applications for esteemed companies like Right Edu.",
           color: "#0879bf",
         },
         {
-          title: "Remote Software Engineer",
+          title: "Software Engineer",
           company: "6Sigma ",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "",
           logo_path: "legato_logo.png",
           duration: "Dec 2020 - Avr 2021",
           location: "amestredam, holland",
@@ -620,7 +620,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Welcome to my Projects section, where I transform ideas into reality. With expertise in backend development, frontend design, and data science, I take projects from conception through execution to deployment. Dive into a collection that showcases innovation at every stage, blending creativity with technical prowess. Join me on this journey from inception to implementation, and explore a world where ideas meet seamless execution.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -694,9 +694,9 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "cite 120 logments Larabatahe",
+      "Raleigh,Nc",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/ZfzaLNEgrVRwk4Cu6",
+    location_map_link: "https://goo.gl/maps/vVdfKG7xEdkVjsQ29",
   },
   phoneSection: {
     title: "Phone:whatsapp:telegram",

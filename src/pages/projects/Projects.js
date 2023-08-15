@@ -65,13 +65,19 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
+         <Button
+          text={"Sample of my Last Projects"}
+          className="project-button"
+          
+          newTab={true}
+          theme={theme}
+        />
 
-    
 
-      
         <div style={{display:'flex' ,flexDirection:'row', flexWrap:'wrap' ,justifyContent:'center'}}>
           <Projectdetails_1></Projectdetails_1>
           <Projectdetails_2></Projectdetails_2>
+          <Mobileappdetaisls/>
        
         
 
@@ -79,7 +85,6 @@ class Projects extends Component {
      
 
         </div>
-        <Mobileappdetaisls/>
         <ML_Project_0/>
         <ML_Project_1/>
         <ML_Project_2/>

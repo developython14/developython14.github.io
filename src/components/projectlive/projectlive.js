@@ -28,7 +28,7 @@ const handleButtonClick = () => {
 };
 const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
 const ref_images = ar.map((e)=> <div>
-<img src={require(`../../assests/images/projects/project0/${e}.png`)} />
+<img src={require(`../../assests/images/projects/project0/${e}.png`)}  height={'300px'} />
 </div>) 
     return (
         <Card
@@ -97,7 +97,7 @@ const handleButtonClick = () => {
 };
 const ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
 const ref_images = ar.map((e)=> <div>
-<img src={require(`../../assests/images/projects/project1/${e}.png`)} />
+<img src={require(`../../assests/images/projects/project1/${e}.png`)}  height={'300px'} />
 </div>) 
     return (
         <Card
@@ -170,7 +170,7 @@ const handleButtonClick = () => {
   const ar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43];
 
 const ref_images = ar.map((e)=> <div>
-<img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`)} />
+<img src={require(`../../assests/images/projects/project0_mobile/${e}.jpeg`) } />
 </div>);
  const carouselItemStyle = {
   boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.2)',
@@ -234,7 +234,7 @@ const handleButtonClick = () => {
        
       <div className='d-flex flex-row justify-content-between flex-wrap'>
         <Detaislsmobile/>
-        <Detaislsmobile/>
+
   </div>
     );
   };
