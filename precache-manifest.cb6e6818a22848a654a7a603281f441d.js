@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e12dfe78b039b5f9ae0bfeae4779d09",
+    "revision": "0a80b9650f1900ecb4204ce10aef22c4",
     "url": "/index.html"
   },
   {
-    "revision": "c72fd7f4d0370ce37513",
+    "revision": "b55fa715c9e7886d8724",
     "url": "/static/css/2.2379b06a.chunk.css"
   },
   {
-    "revision": "d86b2147a8fcc8444bd2",
+    "revision": "3d7f01a1af60ed6bb1b8",
     "url": "/static/css/main.b5bb5b82.chunk.css"
   },
   {
-    "revision": "c72fd7f4d0370ce37513",
-    "url": "/static/js/2.d203276e.chunk.js"
+    "revision": "b55fa715c9e7886d8724",
+    "url": "/static/js/2.0b646180.chunk.js"
   },
   {
-    "revision": "d86b2147a8fcc8444bd2",
-    "url": "/static/js/main.22c55413.chunk.js"
+    "revision": "3d7f01a1af60ed6bb1b8",
+    "url": "/static/js/main.2bd9373c.chunk.js"
   },
   {
     "revision": "6407508c8401beaee096",
@@ -450,6 +450,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "/static/media/address_image.16559172.svg"
+  },
+  {
+    "revision": "06102fa8f9672c68b8dfa37a54617065",
+    "url": "/static/media/amazon-logo-0.06102fa8.png"
   },
   {
     "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
