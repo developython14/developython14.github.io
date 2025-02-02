@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Mustapha's Portfolio",
   description:
-    "A free fire passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Belkassam Mustapha Portfolio",
     type: "website",
@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Mustapha Belkassam",
+  title: "Mustapha Belkassam eltomahook",
   logo_name: "MustaphaBelkassam",
   nickname: "mustapha",
   subTitle:
