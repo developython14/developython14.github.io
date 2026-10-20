@@ -1,16 +1,21 @@
 // theme.js
 export const blueTheme = {
-  body: "#EDF9FE",
-  text: "#001C55",
-  expTxtColor: "#000a12",
-  highlight: "#A6E1FA",
-  dark: "#00072D",
-  secondaryText: "#7F8DAA",
-  imageHighlight: "#0E6BA8",
-  compImgHighlight: "#E6E6E6",
-  jacketColor: "#0A2472",
-  headerColor: "#0E6BA877",
-  splashBg: "#001C55",
+  body: "#0a192f",
+  text: "#ccd6f6",
+  expTxtColor: "#a8b2d1",
+  highlight: "#233554",
+  dark: "#020c1b",
+  secondaryText: "#8892b0",
+  imageHighlight: "#64ffda",
+  compImgHighlight: "#112240",
+  jacketColor: "#64ffda",
+  headerColor: "#112240ee",
+  splashBg: "#0a192f",
+  accentColor: "#64ffda",
+  cardBg: "#112240",
+  cardBorder: "#233554",
+  gradientStart: "#64ffda",
+  gradientEnd: "#48b1bf",
 };
 
 export const brownTheme = {
@@ -25,6 +30,11 @@ export const brownTheme = {
   jacketColor: "#FB6376",
   headerColor: "#E29F9577",
   splashBg: "#5D2A42",
+  accentColor: "#FB6376",
+  cardBg: "#FFF5F5",
+  cardBorder: "#FFE0E0",
+  gradientStart: "#FB6376",
+  gradientEnd: "#E29F95",
 };
 
 export const purpleTheme = {
@@ -39,6 +49,11 @@ export const purpleTheme = {
   jacketColor: "#5E548E",
   headerColor: "#BE95C477",
   splashBg: "#231942",
+  accentColor: "#5E548E",
+  cardBg: "#F0E6F0",
+  cardBorder: "#E0B1CB",
+  gradientStart: "#5E548E",
+  gradientEnd: "#BE95C4",
 };
 
 export const greenTheme = {
@@ -53,6 +68,11 @@ export const greenTheme = {
   jacketColor: "#007f5f",
   headerColor: "#55a63077",
   splashBg: "#003F2F",
+  accentColor: "#55a630",
+  cardBg: "#F0FFE0",
+  cardBorder: "#C0E0A0",
+  gradientStart: "#55a630",
+  gradientEnd: "#007f5f",
 };
 
 export const redTheme = {
@@ -67,6 +87,11 @@ export const redTheme = {
   jacketColor: "#9d0208",
   headerColor: "#dc2f0277",
   splashBg: "#6a040f",
+  accentColor: "#dc2f02",
+  cardBg: "#FFF0E0",
+  cardBorder: "#FFD0B0",
+  gradientStart: "#dc2f02",
+  gradientEnd: "#ffba08",
 };
 
 export const blackTheme = {
@@ -81,6 +106,11 @@ export const blackTheme = {
   jacketColor: "#8d99ae",
   headerColor: "#fca31177",
   splashBg: "#14213d",
+  accentColor: "#fca311",
+  cardBg: "#F5F5F5",
+  cardBorder: "#E0E0E0",
+  gradientStart: "#fca311",
+  gradientEnd: "#14213d",
 };
 
 export const pinkTheme = {
@@ -95,6 +125,11 @@ export const pinkTheme = {
   jacketColor: "#8d99ae",
   headerColor: "#ef476f77",
   splashBg: "#620E34",
+  accentColor: "#ef476f",
+  cardBg: "#FFF0F5",
+  cardBorder: "#FFD0E0",
+  gradientStart: "#ef476f",
+  gradientEnd: "#FBA7CD",
 };
 
 export const violetTheme = {
@@ -109,6 +144,11 @@ export const violetTheme = {
   jacketColor: "#763D8B",
   headerColor: "#9b5de577",
   splashBg: "#430A58",
+  accentColor: "#9b5de5",
+  cardBg: "#EDE0FC",
+  cardBorder: "#D6BEF4",
+  gradientStart: "#9b5de5",
+  gradientEnd: "#763D8B",
 };
 
 export const tealTheme = {
@@ -123,6 +163,11 @@ export const tealTheme = {
   jacketColor: "#56a3a6",
   headerColor: "#07beb877",
   splashBg: "#084c61",
+  accentColor: "#07beb8",
+  cardBg: "#D0F5F0",
+  cardBorder: "#9BEED8",
+  gradientStart: "#07beb8",
+  gradientEnd: "#56a3a6",
 };
 
 export const orangeTheme = {
@@ -137,6 +182,11 @@ export const orangeTheme = {
   jacketColor: "#d7263d",
   headerColor: "#FF6B3577",
   splashBg: "#99401F",
+  accentColor: "#FF6B35",
+  cardBg: "#FFE5D5",
+  cardBorder: "#FFB59A",
+  gradientStart: "#FF6B35",
+  gradientEnd: "#d7263d",
 };
 
 export const yellowTheme = {
@@ -151,6 +201,11 @@ export const yellowTheme = {
   jacketColor: "#4e342e",
   headerColor: "#FFEA3D",
   splashBg: "#5f4339",
+  accentColor: "#ffea3d",
+  cardBg: "#FFF0A0",
+  cardBorder: "#FFE070",
+  gradientStart: "#ffea3d",
+  gradientEnd: "#4e342e",
 };
 
 export const materialDarkTheme = {
@@ -165,6 +220,11 @@ export const materialDarkTheme = {
   jacketColor: "#8eacbb",
   headerColor: "#34515e",
   splashBg: "#4f5b62",
+  accentColor: "#607d8b",
+  cardBg: "#37474f",
+  cardBorder: "#4f5b62",
+  gradientStart: "#607d8b",
+  gradientEnd: "#8eacbb",
 };
 
 export const materialLightTheme = {
@@ -179,6 +239,11 @@ export const materialLightTheme = {
   jacketColor: "#E1E2E1",
   headerColor: "#E1E2E1",
   splashBg: "#7d56c2",
+  accentColor: "#7d56c2",
+  cardBg: "#F5F0FF",
+  cardBorder: "#E9E3F5",
+  gradientStart: "#7d56c2",
+  gradientEnd: "#4c2b91",
 };
 
 export const materialTealTheme = {
@@ -193,6 +258,11 @@ export const materialTealTheme = {
   jacketColor: "#E1E2E1",
   headerColor: "#E1E2E1",
   splashBg: "#05505E",
+  accentColor: "#07beb8",
+  cardBg: "#E0F5F5",
+  cardBorder: "#a1dded",
+  gradientStart: "#07beb8",
+  gradientEnd: "#05505E",
 };
 
 export const chosenTheme = blueTheme;

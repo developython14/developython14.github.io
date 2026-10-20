@@ -8,7 +8,7 @@ class Certifications extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="main" id="certs">
+      <div className="certs-container" id="certs">
         <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>
@@ -17,8 +17,10 @@ class Certifications extends Component {
           </Fade>
         </div>
         <div className="certs-body-div">
-          {certifications.certifications.map((cert) => {
-            return <CertificationCard certificate={cert} theme={theme} />;
+          {certifications.certifications.map((cert, index) => {
+            return (
+              <CertificationCard certificate={cert} theme={theme} key={index} />
+            );
           })}
         </div>
       </div>

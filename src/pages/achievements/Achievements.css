@@ -1,0 +1,409 @@
+.ach-main {
+  width: 100%;
+}
+
+.ach-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+/* Hero */
+.ach-hero {
+  text-align: center;
+  padding: 60px 0 32px;
+}
+
+.ach-hero-label {
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.ach-hero-title {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Top Stats Grid */
+.ach-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 56px;
+}
+
+.ach-stat-card {
+  border: 1px solid;
+  border-radius: 14px;
+  padding: 24px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.ach-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.ach-stat-value {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.ach-stat-label {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Career Progression */
+.ach-progression {
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.ach-section-title {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 32px;
+}
+
+.ach-prog-track {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  position: relative;
+}
+
+.ach-prog-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  max-width: 220px;
+}
+
+.ach-prog-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(100, 255, 218, 0.25);
+}
+
+.ach-prog-connector {
+  position: absolute;
+  top: 24px;
+  left: calc(50% + 24px);
+  width: calc(100% - 48px);
+  height: 2px;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.ach-prog-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+  gap: 2px;
+}
+
+.ach-prog-title {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ach-prog-period {
+  font-family: "Fira Code", monospace;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.ach-prog-count {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.ach-prog-tagline {
+  font-family: "Fira Code", monospace;
+  font-size: 12px;
+  margin-top: 28px;
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+}
+
+/* Tabs */
+.ach-tabs {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 32px;
+}
+
+.ach-tab {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 16px 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.3s ease;
+}
+
+.ach-tab:hover {
+  opacity: 1;
+}
+
+.ach-tab-level {
+  font-family: "Fira Code", monospace;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ach-tab-title {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ach-tab-count {
+  font-family: "Fira Code", monospace;
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+/* Section Header */
+.ach-section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ach-section-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ach-section-period {
+  font-family: "Fira Code", monospace;
+  font-size: 12px;
+}
+
+/* Achievement Cards */
+.ach-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ach-card {
+  border: 1px solid;
+  border-radius: 14px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.ach-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.ach-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.ach-card-id {
+  font-family: "Fira Code", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ach-card-title {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.ach-card-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.ach-card-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ach-card-toggle:hover {
+  opacity: 0.7;
+}
+
+/* Tech Tags */
+.ach-card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.ach-tech-tag {
+  font-family: "Fira Code", monospace;
+  font-size: 11px;
+  padding: 3px 10px;
+  border: 1px solid;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+/* Metrics */
+.ach-card-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ach-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 100px;
+}
+
+.ach-metric-value {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+.ach-metric-label {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ach-content {
+    padding: 0 16px 40px;
+  }
+  .ach-hero {
+    padding: 30px 0 24px;
+  }
+  .ach-hero-title {
+    font-size: 26px;
+  }
+  .ach-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .ach-stat-value {
+    font-size: 22px;
+  }
+  .ach-prog-track {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .ach-prog-connector {
+    display: none;
+  }
+  .ach-prog-step {
+    flex-direction: row;
+    gap: 16px;
+    max-width: 100%;
+  }
+  .ach-prog-info {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  .ach-section-title {
+    font-size: 24px;
+  }
+  .ach-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ach-tab {
+    min-width: 100px;
+  }
+  .ach-section-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .ach-card {
+    padding: 18px;
+  }
+  .ach-card-title {
+    font-size: 15px;
+  }
+  .ach-card-metrics {
+    gap: 10px;
+  }
+  .ach-metric {
+    min-width: 80px;
+  }
+  .ach-metric-value {
+    font-size: 16px;
+  }
+}

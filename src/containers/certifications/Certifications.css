@@ -1,14 +1,23 @@
+.certs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
 .certs-header {
   font-size: 40px;
   line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: "Inter", "Google Sans Regular", sans-serif;
   text-align: center;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
 }
 
 .certs-body-div {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
 }
 
 @media (max-width: 1380px) {
@@ -18,11 +27,14 @@
 }
 
 @media (max-width: 768px) {
-  .certs-body-div {
-    flex-direction: column;
+  .certs-container {
+    padding: 20px 16px;
   }
-
+  .certs-body-div {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
   .certs-header {
-    font-size: 30px;
+    font-size: 28px;
   }
 }

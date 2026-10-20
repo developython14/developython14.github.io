@@ -5,9 +5,7 @@ import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
-import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
-import { certifications } from "../../portfolio";
+import { competitiveSites, certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
@@ -17,31 +15,31 @@ class Education extends Component {
     return (
       <div className="education-main">
         <Header theme={this.props.theme} />
-        <div className="basic-education">
-          <Fade bottom duration={2000} distance="40px">
-            <div className="heading-div">
-              <div className="heading-img-div">
-                {/* <img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
-                <EducationImg theme={theme} />
-              </div>
-              <div className="heading-text-div">
-                <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
-                </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
-                </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
-              </div>
+        <div className="education-content">
+          <Fade bottom duration={1000} distance="20px">
+            <div className="education-hero">
+              <span
+                className="education-label"
+                style={{ color: theme.accentColor }}
+              >
+                {"< education />"}
+              </span>
+              <h1 className="education-title" style={{ color: theme.text }}>
+                Qualifications & Certifications
+              </h1>
+              <p
+                className="education-subtitle"
+                style={{ color: theme.secondaryText }}
+              >
+                Academic background and professional development
+              </p>
+              <CompetitiveSites logos={competitiveSites.competitiveSites} />
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
-          {certifications.certifications.length > 0 ? (
+          {certifications.certifications.length > 0 && (
             <Certifications theme={this.props.theme} />
-          ) : null}
+          )}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

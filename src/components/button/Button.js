@@ -1,32 +1,27 @@
 import React from "react";
 import "./Button.css";
 
-const onMouseEnter = (event, color, bgColor) => {
-  const el = event.target;
-  el.style.color = color;
-  el.style.backgroundColor = bgColor;
-};
-
-const onMouseOut = (event, color, bgColor) => {
-  const el = event.target;
-  el.style.color = color;
-  el.style.backgroundColor = bgColor;
-};
-
 export default function Button({ text, className, href, newTab, theme }) {
   return (
     <div className={className}>
       <a
-        class="main-button"
+        className="main-button"
         href={href}
-        target={newTab && "_blank"}
+        target={newTab ? "_blank" : undefined}
+        rel={newTab ? "noopener noreferrer" : undefined}
         style={{
-          color: theme.body,
-          backgroundColor: theme.text,
-          border: `solid 1px ${theme.text}`,
+          color: theme.accentColor || theme.body,
+          backgroundColor: "transparent",
+          border: `1px solid ${theme.accentColor || theme.text}`,
         }}
-        onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
-        onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
+        onMouseEnter={(e) => {
+          e.target.style.backgroundColor = theme.accentColor || theme.text;
+          e.target.style.color = theme.body || theme.dark;
+        }}
+        onMouseOut={(e) => {
+          e.target.style.backgroundColor = "transparent";
+          e.target.style.color = theme.accentColor || theme.body;
+        }}
       >
         {text}
       </a>

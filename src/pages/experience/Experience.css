@@ -2,87 +2,131 @@
   width: 100%;
 }
 
-.basic-experience {
-  margin-left: 5%;
-  margin-right: 5%;
+.experience-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.experience-heading-div {
-  display: flex;
-}
-
-.experience-heading-div > * {
-  flex: 1;
-}
-
-.experience-heading-img-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.experience-heading-text-div {
+/* Header */
+.experience-header-section {
   text-align: center;
+  padding: 60px 0 40px;
 }
 
-.experience-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
+.experience-header-label {
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 .experience-heading-text {
-  font-size: 56px;
-  font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
   line-height: 1.1;
-  text-align: center;
-  margin-top: 80px;
-}
-
-.experience-heading-sub-text {
-  font-size: 30px;
-  font-family: "Google Sans Regular";
-  text-align: center;
-  margin-bottom: 10px;
+  letter-spacing: -1.5px;
+  margin-bottom: 16px;
 }
 
 .experience-header-detail-text {
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Tabs */
+.experience-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 48px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.experience-tab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 14px 28px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+  position: relative;
+}
+
+.experience-tab:hover {
+  opacity: 1;
+}
+
+.experience-tab-active {
+  opacity: 1;
+}
+
+/* Timeline */
+.experience-timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    rgba(100, 255, 218, 0.4),
+    rgba(100, 255, 218, 0.05)
+  );
+  border-radius: 2px;
 }
 
 @media (max-width: 1380px) {
   .experience-heading-text {
-    font-size: 50px;
-    margin-top: 80px;
-  }
-  .experience-heading-sub-text {
-    font-size: 25px;
+    font-size: 42px;
   }
 }
 
 @media (max-width: 768px) {
+  .experience-content {
+    padding: 0 16px;
+  }
+  .experience-header-section {
+    padding: 30px 0 24px;
+  }
   .experience-heading-text {
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 28px;
   }
-
-  .experience-heading-sub-text {
-    font-size: 20px;
-  }
-
-  .experience-heading-div {
-    flex-direction: column;
-  }
-
   .experience-header-detail-text {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
-    text-align: center;
+    font-size: 14px;
+  }
+  .experience-tabs {
+    gap: 0;
+    margin-bottom: 32px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .experience-tab {
+    padding: 12px 18px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .experience-timeline {
+    padding-left: 24px;
+  }
+  .experience-timeline::before {
+    left: 5px;
   }
 }

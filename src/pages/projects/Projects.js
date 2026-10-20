@@ -2,23 +2,23 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import {
-  greeting,
-  projectsHeader,
-  publicationsHeader,
-  publications,
-} from "../../portfolio.js";
+import { greeting, projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-import Projectdetails, { Mobileappdetaisls } from "../../components/projectlive/projectlive";
-import { ML_Project, ML_Project_0, ML_Project_1, ML_Project_2 } from "../../components/projectlive/data_science_projects";
-import {Projectdetails_1 , Projectdetails_2 , Detaislsmobile} from "../../components/projectlive/projectlive";
-
+import { Mobileappdetaisls } from "../../components/projectlive/projectlive";
+import {
+  ML_Project_0,
+  ML_Project_1,
+  ML_Project_2,
+} from "../../components/projectlive/data_science_projects";
+import {
+  Projectdetails_1,
+  Projectdetails_2,
+} from "../../components/projectlive/projectlive";
 
 class Projects extends Component {
   render() {
@@ -30,10 +30,6 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -53,11 +49,13 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+            return <GithubRepoCard repo={repo} theme={theme} key={repo.id} />;
           })}
         </div>
+
         <Button
           text={"More Projects"}
           className="project-button"
@@ -65,36 +63,34 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
-         <Button
-          text={"Sample of my Last Projects"}
-          className="project-button"
-          
-          newTab={true}
-          theme={theme}
-        />
 
-
-        <div style={{display:'flex' ,flexDirection:'row', flexWrap:'wrap' ,justifyContent:'center'}}>
-          <Projectdetails_1></Projectdetails_1>
-          <Projectdetails_2></Projectdetails_2>
-          <Mobileappdetaisls/>
-       
-        
-
-        
-     
-
+        <div className="projects-section-divider">
+          <h2 className="projects-section-title" style={{ color: theme.text }}>
+            Featured Projects
+          </h2>
         </div>
-        <ML_Project_0/>
-        <ML_Project_1/>
-        <ML_Project_2/>
 
-       
+        <div className="featured-projects-grid">
+          <Projectdetails_1 />
+          <Projectdetails_2 />
+          <Mobileappdetaisls />
+        </div>
+
+        <div className="projects-section-divider">
+          <h2 className="projects-section-title" style={{ color: theme.text }}>
+            Data Science Projects
+          </h2>
+        </div>
+
+        <div className="ds-projects-container">
+          <ML_Project_0 />
+          <ML_Project_1 />
+          <ML_Project_2 />
+        </div>
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
-      
     );
   }
 }

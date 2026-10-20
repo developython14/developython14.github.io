@@ -1,11 +1,20 @@
 #topButton {
   visibility: hidden;
   position: fixed;
-  bottom: 1.2rem;
-  right: 1.5rem;
+  bottom: 2rem;
+  right: 2rem;
   cursor: pointer;
-  padding: 15px;
+  padding: 14px;
   outline: none;
-  border-radius: 2rem;
-  font-size: 1.5rem;
+  border-radius: 14px;
+  font-size: 1.2rem;
+  z-index: 999;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+#topButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }

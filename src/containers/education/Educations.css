@@ -1,18 +1,9 @@
-.educations-header {
-  font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
-  text-align: center;
+.educations-container {
+  padding: 0 0 40px;
 }
 
-@media (max-width: 1380px) {
-  .educations-header {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 768px) {
-  .educations-header {
-    font-size: 30px;
-  }
+.educations-body-div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }

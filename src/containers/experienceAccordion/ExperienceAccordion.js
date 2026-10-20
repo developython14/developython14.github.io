@@ -18,21 +18,28 @@ class ExperienceAccordion extends Component {
                 overrides={{
                   Header: {
                     style: () => ({
-                      backgroundColor: `${theme.body}`,
-                      border: `1px solid`,
-                      borderRadius: `5px`,
-                      borderColor: `${theme.headerColor}`,
-                      marginBottom: `3px`,
-                      fontFamily: "Google Sans Regular",
-                      color: `${theme.text}`,
+                      backgroundColor: theme.cardBg || theme.highlight,
+                      border: `1px solid ${
+                        theme.cardBorder || theme.headerColor
+                      }`,
+                      borderRadius: `12px`,
+                      marginBottom: `8px`,
+                      fontFamily: "Inter, Google Sans Regular, sans-serif",
+                      color: theme.text,
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      padding: "16px 20px",
+                      transition: "all 0.3s ease",
                       ":hover": {
-                        color: `${theme.secondaryText}`,
+                        color: theme.accentColor || theme.secondaryText,
+                        borderColor: theme.accentColor || theme.secondaryText,
                       },
                     }),
                   },
                   Content: {
                     style: () => ({
-                      backgroundColor: `${theme.body}`,
+                      backgroundColor: "transparent",
+                      borderRadius: "12px",
                     }),
                   },
                 }}
