@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a80b9650f1900ecb4204ce10aef22c4",
+    "revision": "365b8a7cf60a331924edeb209765653c",
     "url": "/index.html"
   },
   {
-    "revision": "b55fa715c9e7886d8724",
+    "revision": "96dff11b3e43405f85c6",
     "url": "/static/css/2.2379b06a.chunk.css"
   },
   {
-    "revision": "3d7f01a1af60ed6bb1b8",
-    "url": "/static/css/main.b5bb5b82.chunk.css"
+    "revision": "1364f80287e34da78720",
+    "url": "/static/css/main.48a3036c.chunk.css"
   },
   {
-    "revision": "b55fa715c9e7886d8724",
-    "url": "/static/js/2.0b646180.chunk.js"
+    "revision": "96dff11b3e43405f85c6",
+    "url": "/static/js/2.9edfbd56.chunk.js"
   },
   {
-    "revision": "3d7f01a1af60ed6bb1b8",
-    "url": "/static/js/main.2bd9373c.chunk.js"
+    "revision": "1364f80287e34da78720",
+    "url": "/static/js/main.b93d6e5b.chunk.js"
   },
   {
     "revision": "6407508c8401beaee096",
@@ -416,28 +416,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/GoogleSans-Bold.4457817a.ttf"
   },
   {
-    "revision": "90773b6158663ab0fe78b32680733677",
-    "url": "/static/media/GoogleSans-BoldItalic.90773b61.ttf"
-  },
-  {
-    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
-    "url": "/static/media/GoogleSans-Italic.0ecddcde.ttf"
-  },
-  {
     "revision": "8d57e4014b18edef070d285746485115",
     "url": "/static/media/GoogleSans-Medium.8d57e401.ttf"
   },
   {
-    "revision": "8fd3737925e83c87d78a13700ccf9a62",
-    "url": "/static/media/GoogleSans-MediumItalic.8fd37379.ttf"
-  },
-  {
     "revision": "b5c77a6aed75cdad9489effd0d5ea411",
     "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
-  },
-  {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "7769ccf0aef7035f7501f9190e879cfc",
@@ -452,8 +436,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/address_image.16559172.svg"
   },
   {
-    "revision": "06102fa8f9672c68b8dfa37a54617065",
-    "url": "/static/media/amazon-logo-0.06102fa8.png"
+    "revision": "3f01eebc967d5645e40584fbb860a9cf",
+    "url": "/static/media/amazon_logo.3f01eebc.svg"
   },
   {
     "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
@@ -474,6 +458,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee92c18b1cfbd1faa704c51047f113d",
     "url": "/static/media/codeInLogo.fee92c18.png"
+  },
+  {
+    "revision": "7ea6cebe762c99269c36ed792c4a3236",
+    "url": "/static/media/comptia_logo.7ea6cebe.svg"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
@@ -656,8 +644,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pwa.71408db7.png"
   },
   {
-    "revision": "386595a5a91d2ec1e62830ab33b9c799",
-    "url": "/static/media/rename.386595a5.py"
+    "revision": "67e78e3a87bf6ee56f2dca251f227a76",
+    "url": "/static/media/rename.67e78e3a.py"
   },
   {
     "revision": "b0487222ec4488d477e1cef944616026",
