@@ -7,7 +7,7 @@ export const achievementsData = {
     { value: "$16.8M+", label: "Total Impact" },
     { value: "2,250+", label: "Active Users" },
     { value: "65+", label: "Sites Impacted" },
-    { value: "33", label: "Achievements" },
+    { value: "34", label: "Achievements" },
   ],
   progression: [
     {
@@ -26,7 +26,7 @@ export const achievementsData = {
       level: "L5",
       title: "Solution Development Manager",
       period: "May 2025 – Present",
-      count: 5,
+      count: 6,
     },
   ],
   progressionTagline:
@@ -371,7 +371,7 @@ export const achievementsData = {
       level: "L5",
       title: "Solution Development Manager",
       period: "May 2025 – Present",
-      count: 5,
+      count: 6,
       achievements: [
         {
           id: "L5-01",
@@ -409,6 +409,27 @@ export const achievementsData = {
         },
         {
           id: "L5-05",
+          title: "RDS Log Pipeline Optimization (Kinesis Firehose)",
+          description:
+            "Reduced PostgreSQL database load by 97% and CPU utilization by 74% by architecting a Kinesis Firehose-based log pipeline, eliminating 46% of write throughput and 88% of network traffic across a 3-instance RDS cluster serving 9K TPS, while maintaining zero data loss for a 1+ billion row platform.",
+          techStack: [
+            "AWS Kinesis Firehose",
+            "PostgreSQL RDS (3-instance cluster)",
+            "S3",
+            "CloudWatch",
+            "Python",
+          ],
+          metrics: [
+            { value: "97%", label: "DB Load Reduction" },
+            { value: "74%", label: "CPU Utilization Drop" },
+            { value: "88%", label: "Network Traffic Eliminated" },
+            { value: "46%", label: "Write Throughput Removed" },
+            { value: "9K TPS", label: "Throughput Maintained" },
+            { value: "1B+", label: "Rows (Zero Data Loss)" },
+          ],
+        },
+        {
+          id: "L5-06",
           title: "Technical Deliverables & Network Expansion",
           description:
             "Driving the expansion of all core platforms from SDC-only to multi-network coverage. Built the RDC Shift Planner (12 sites, 100+ roles, 8+ SQL jobs). Expanded HeroGare/Atlas to 30+ buildings with 4M+ rows/day pipeline. Integrated all RDC + Canadian sites into SQPR and Overhang dashboards.",
