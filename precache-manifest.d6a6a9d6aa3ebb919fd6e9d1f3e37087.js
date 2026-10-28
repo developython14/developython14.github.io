@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fae38a9e25a7a1a875aadf2dbc14608d",
+    "revision": "a1c5c127585808b9daf12ab2a67c4fa3",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.2379b06a.chunk.css"
   },
   {
-    "revision": "5bcb8f62dab363d5ffa3",
-    "url": "/static/css/main.48a3036c.chunk.css"
+    "revision": "c6d61f9bc56d8f950849",
+    "url": "/static/css/main.5acc6f97.chunk.css"
   },
   {
     "revision": "96dff11b3e43405f85c6",
     "url": "/static/js/2.9edfbd56.chunk.js"
   },
   {
-    "revision": "5bcb8f62dab363d5ffa3",
-    "url": "/static/js/main.b3112d9c.chunk.js"
+    "revision": "c6d61f9bc56d8f950849",
+    "url": "/static/js/main.b10ef8f7.chunk.js"
   },
   {
     "revision": "6407508c8401beaee096",
@@ -436,8 +436,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/address_image.16559172.svg"
   },
   {
-    "revision": "3f01eebc967d5645e40584fbb860a9cf",
-    "url": "/static/media/amazon_logo.3f01eebc.svg"
+    "revision": "c8716fceca70277f7278205337511611",
+    "url": "/static/media/amazon_logo.c8716fce.svg"
   },
   {
     "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
@@ -460,8 +460,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/codeInLogo.fee92c18.png"
   },
   {
-    "revision": "7ea6cebe762c99269c36ed792c4a3236",
-    "url": "/static/media/comptia_logo.7ea6cebe.svg"
+    "revision": "0842079f2d39e52e0e378db9135b3d21",
+    "url": "/static/media/comptia_logo.0842079f.svg"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
@@ -644,8 +644,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pwa.71408db7.png"
   },
   {
-    "revision": "67e78e3a87bf6ee56f2dca251f227a76",
-    "url": "/static/media/rename.67e78e3a.py"
+    "revision": "386595a5a91d2ec1e62830ab33b9c799",
+    "url": "/static/media/rename.386595a5.py"
   },
   {
     "revision": "b0487222ec4488d477e1cef944616026",
